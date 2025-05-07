@@ -1,0 +1,88 @@
+<!-- certificates.html -->
+<!-- certificates.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Certificates</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #e0f2fe, #f0f9ff);
+    }
+    .cert-page {
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    h1 {
+      color: #1e40af;
+    }
+    .scroll-container {
+      max-height: 600px;
+      overflow-y: auto;
+      padding-right: 10px;
+      margin-top: 20px;
+    }
+    .cert-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .cert-item {
+      width: 200px;
+      background: #f8fafc;
+      border: 2px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .cert-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .cert-caption {
+      margin-top: 10px;
+      font-size: 1em;
+      color: #334155;
+    }
+    .back-link {
+      display: block;
+      margin-top: 30px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="cert-page">
+    <h1>📜 My Certificates</h1>
+    <p>These certificates show what I’ve achieved and worked hard for so far.</p>
+    <div class="scroll-container">
+      <div class="cert-list">
+        <!-- You can duplicate the cert-item block below to add more certificates -->
+        <div class="cert-item">
+          <img src="images/certificate1.jpg" alt="Certificate 1">
+          <p class="cert-caption">English Excellence</p>
+        </div>
+        <div class="cert-item">
+          <img src="images/certificate2.jpg" alt="Certificate 2">
+          <p class="cert-caption">Top in Math</p>
+        </div>
+        <div class="cert-item">
+          <img src="images/certificate3.jpg" alt="Certificate 3">
+          <p class="cert-caption">Participation Award</p>
+        </div>
+        <!-- Add more cert-item blocks here as needed -->
+      </div>
+    </div>
+    <a href="home.html" class="back-link">⬅️ Back to Time Capsule</a>
+  </div>
+</body>
+</html>
